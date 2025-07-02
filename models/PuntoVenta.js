@@ -1,3 +1,4 @@
+//Base de datos
 const mongoose = require('mongoose');
 
 const PuntoVentaSchema = new mongoose.Schema({
@@ -30,6 +31,5 @@ const PuntoVentaSchema = new mongoose.Schema({
     min: 0
   }
 });
-
 
 module.exports = mongoose.model('PuntoVenta', PuntoVentaSchema);

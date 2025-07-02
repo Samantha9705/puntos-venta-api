@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 const PuntoVenta = require('../models/PuntoVenta');
 
-  //METODO POST
+//METODO POST
 router.post('/', async (req, res) => {
-  console.log('📦 Cuerpo recibido en la API:', req.body); // para debug
+  console.log('📦 Cuerpo recibido en la API:', req.body); 
 
   try {
     const nuevoPunto = new PuntoVenta(req.body);
