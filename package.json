@@ -1,0 +1,31 @@
+{
+  "name": "puntos-venta-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samantha9705/puntos-venta-api.git"
+  },
+  "keywords": [],
+  "author": "Samantha García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samantha9705/puntos-venta-api/issues"
+  },
+  "homepage": "https://github.com/Samantha9705/puntos-venta-api#readme",
+  "description": "API REST con Express y MongoDB para gestionar puntos de venta, incluyendo operaciones CRUD.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
